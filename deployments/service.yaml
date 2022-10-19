@@ -1,0 +1,11 @@
+kind: Service 
+apiVersion: v1 
+metadata:
+  name: entities-service 
+spec:
+  selector:
+    app: entities-service 
+  ports:
+    - 
+      port: 80 
+      targetPort: 8080
